@@ -9,11 +9,12 @@ function Intro() {
                 <h2 className='i-intro'>Hello, my name is</h2>
                 <h1 className='i-name'>Karla</h1>
                 <div className='i-title'>
-                    <div className='i-title-wrapper'></div>
+                    <div className='i-title-wrapper'>
                         <div className='i-title-item'>Web Dev</div>
                         <div className='i-title-item'>Web Dev</div>
                         <div className='i-title-item'>Web Dev</div>
                         <div className='i-title-item'>Web Dev</div>
+                    </div>
                 </div>
             </div>
         </div>
