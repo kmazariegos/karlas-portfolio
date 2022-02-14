@@ -79,7 +79,7 @@ function Intro() {
                 </svg>
         </div>
 
-        <div className='i-right'>Right
+        <div className='i-right'>
             <div className='i-bg'></div>
             <img className='i-img' src={img} alt=''></img>
         </div>
