@@ -46,10 +46,12 @@
   
 .a-sub {
     margin: 20px 0px;
+    margin: 5px;
 }
 
 .a-desc{
       font-weight: 300;
+      margin: 5px;
 }
 
 .a-award-img{
@@ -62,4 +64,40 @@
     margin: 50px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.a-award-texts{
+    width: 70%;
+}
+
+.a-award-title{
+    font-weight: bold;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width:480px) {
+    .a{
+      flex-direction: column;
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .a-left {
+      width: 100%;
+    }
+
+    .a-card {
+      height: 30vh;
+    }
+
+    .a-card.bg, .a-award {
+      display: none;
+    }
+
+    .a-right{
+      padding: 20px;
+    }
+
 }
