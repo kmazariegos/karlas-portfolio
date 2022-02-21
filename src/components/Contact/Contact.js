@@ -1,8 +1,13 @@
 import React from 'react'
+import { useRef } from 'react'
 import './Contact.css'
 import image from '../../img/coding.png'
 
 export default function Contact() {
+    const formRef = useRef()
+    const handleSubmit = (e) => {
+        e.preventDefault()
+    }
   return (
     <div className='c'>
         <div className='c-bg'></div>
@@ -29,7 +34,7 @@ export default function Contact() {
                     <b>What's your story?</b>
                     Here is the story
                 </p>
-                <form>
+                <form ref={formRef} onSubmit={handleSubmit}>
                     <input type='text' placeholder='Name' name='user_name'></input>
                     <input type='text' placeholder='Subject' name='user_subject'></input>
                     <input type='text' placeholder='Email' name='user_email'></input>
