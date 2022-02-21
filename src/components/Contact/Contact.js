@@ -2,6 +2,8 @@ import React from 'react'
 import { useRef } from 'react'
 import './Contact.css'
 import image from '../../img/coding.png'
+// import { FaGithub, FaLinkedin } from 'react-icons/fa'
+// import { FiMail } from 'react-icons/fi' 
 
 export default function Contact() {
     const formRef = useRef()
@@ -27,6 +29,15 @@ export default function Contact() {
                         <img className='c-icon' src={image} alt=''></img>
                         Phone Number
                     </div>
+                    {/* <a href="https://github.com/kmazariegos" target="blank">
+                    <FaGithub/>
+                    </a>
+                    <a href="https://www.linkedin.com/in/karla-mazariegos/" target="blank">
+                    <FaLinkedin/>
+                    </a>
+                    <a href="https://www.linkedin.com/in/karla-mazariegos/" target="blank">
+                    <FiMail/>
+                    </a> */}
                 </div>
             </div>
             <div className='c-right'>
