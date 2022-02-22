@@ -2,6 +2,7 @@ import React from 'react'
 import { useRef } from 'react'
 import './Contact.css'
 import image from '../../img/coding.png'
+import emailjs from 'emailjs';
 // import { FaGithub, FaLinkedin } from 'react-icons/fa'
 // import { FiMail } from 'react-icons/fi' 
 
@@ -9,6 +10,12 @@ export default function Contact() {
     const formRef = useRef()
     const handleSubmit = (e) => {
         e.preventDefault()
+        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', formRef.current, 'YOUR_USER_ID')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
     }
   return (
     <div className='c'>
