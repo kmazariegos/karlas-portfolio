@@ -10,7 +10,7 @@ export default function Contact() {
     const formRef = useRef()
     const handleSubmit = (e) => {
         e.preventDefault()
-        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', formRef.current, 'YOUR_USER_ID')
+        emailjs.sendForm('service_688l357', 'template_ivarsko', formRef.current, 'user_WhRehiNxt0YIvxEMwyoEO')
         .then((result) => {
             console.log(result.text);
         }, (error) => {
