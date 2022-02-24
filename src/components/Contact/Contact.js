@@ -1,24 +1,27 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useRef } from 'react'
 import './Contact.css'
 import image from '../../img/coding.png'
-import emailjs from 'emailjs';
+import emailjs from "emailjs-com";
 // import { FaGithub, FaLinkedin } from 'react-icons/fa'
 // import { FiMail } from 'react-icons/fi' 
 
 export default function Contact() {
     const formRef = useRef()
+    const [done, setDone] = useState(false)
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        emailjs.sendForm('service_688l357', 'template_ivarsko', formRef.current, 'user_WhRehiNxt0YIvxEMwyoEO')
+        emailjs
+        .sendForm('service_688l357', 'template_ivarsko', formRef.current, 'user_WhRehiNxt0YIvxEMwyoEO')
         .then((result) => {
             console.log(result.text);
+            setDone(true)
         }, (error) => {
             console.log(error.text);
         });
     }
-    
+
   return (
     <div className='c'>
         <div className='c-bg'></div>
@@ -60,6 +63,7 @@ export default function Contact() {
                     <input type='text' placeholder='Email' name='user_email'></input>
                     <textarea rows="5" placeholder='Message' name='message'/>
                     <button>Submit</button>
+                    {done && "Thank you!"}
                 </form>
             </div>
         </div>
