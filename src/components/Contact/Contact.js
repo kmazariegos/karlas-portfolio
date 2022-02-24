@@ -8,6 +8,7 @@ import emailjs from 'emailjs';
 
 export default function Contact() {
     const formRef = useRef()
+
     const handleSubmit = (e) => {
         e.preventDefault()
         emailjs.sendForm('service_688l357', 'template_ivarsko', formRef.current, 'user_WhRehiNxt0YIvxEMwyoEO')
@@ -17,6 +18,7 @@ export default function Contact() {
             console.log(error.text);
         });
     }
+    
   return (
     <div className='c'>
         <div className='c-bg'></div>
