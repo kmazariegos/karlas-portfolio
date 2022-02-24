@@ -4,7 +4,7 @@ import image from '../../img/coding.png'
 
 function Toggle() {
   return (
-    <div className='t'>Toggle
+    <div className='t'>
         <img className='t-icon' alt='' src={image}></img>
         <img className='t-icon' alt='' src={image}></img>
         <div className='t-button'></div>
