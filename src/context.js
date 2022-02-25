@@ -1,10 +1,9 @@
-import { createContext } from 'react';
-import { ThemeProvider } from 'react-bootstrap';
+import { createContext, useReducer } from 'react';
 
 export const ThemeContext = createContext()
 
 
-const INITAL_STATE = {darkMode: false};
+const INITIAL_STATE = {darkMode: false};
 
 
 const themeReducer =(state, action) => {
@@ -19,12 +18,12 @@ const themeReducer =(state, action) => {
 }
 
 
-export const themeProvider = (props) => {
-    const [state, dispatch] = userReducer(themeReducer, INITAL_STATE);
+export const ThemeProvider = (props) => {
+    const [state, dispatch] = useReducer(themeReducer, INITIAL_STATE);
 
     return(
-        <ThemeProvider value={(state, dispatch)}>
+        <ThemeContext.Provider value={(state, dispatch)}>
             {props.children}
-        </ThemeProvider>
-    )
-}
+        </ThemeContext.Provider>
+    );
+};
