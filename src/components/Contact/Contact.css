@@ -6,7 +6,7 @@ position: relative;
 .c-bg {
 width: 20px;
 height: 100%;
-background-color: #59b256;
+background-color: #4e6643;
 position: absolute;
 }
 
@@ -74,7 +74,7 @@ padding-left: 10px;
 button {
 border: none;
 padding: 15px;
-background-color: #59b256;
+background-color: #4e6643;
 color: white;
 font-weight: 500;
 cursor: pointer;
