@@ -4,20 +4,28 @@ import Intro from './components/Intro/Intro';
 import ProductList from './components/ProductList/ProductList';
 import Contact from './components/Contact/Contact';
 import Toggle from './components/Toggle/Toggle';
-import { useState } from 'react';
+import { useContext } from 'react';
+import { ThemeContext } from './context';
 
 
-function App() { 
-  const [dark, setDark] = useState(false)
+
+const App = () => {
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
   return (
-    <div className="App">
-      <Toggle setDark={setDark}></Toggle>
-      <Intro dark={dark}>Intro</Intro>
-      <About dark={dark}></About>
-      <ProductList dark={dark}></ProductList>
-      <Contact dark={dark}></Contact>
+    <div
+      style={{
+        backgroundColor: darkMode ? "#222" : "white",
+        color: darkMode && "white",
+      }}
+    >
+      <Toggle />
+      <Intro />
+      <About />
+      <ProductList />
+      <Contact />
     </div>
   );
-}
+};
 
 export default App;

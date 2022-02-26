@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Intro.css"
+import "./Intro.css" 
 import img from '../../img/km.png'
 
 function Intro() {
