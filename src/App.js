@@ -6,6 +6,7 @@ import Contact from './components/Contact/Contact';
 import Toggle from './components/Toggle/Toggle';
 import { useContext } from 'react';
 import { ThemeContext } from './context';
+import Footer from './components/Footer/Footer';
 
 
 
@@ -15,8 +16,8 @@ const App = () => {
   return (
     <div
       style={{
-        backgroundColor: darkMode ? "#222" : "white",
-        color: darkMode && "white",
+        backgroundColor: darkMode ? "#516dd3" : "#ffe9fd",
+        color: darkMode ? "#ffd7e2" : "#283b7d"
       }}
     >
       <Toggle />
@@ -24,6 +25,7 @@ const App = () => {
       <About />
       <ProductList />
       <Contact />
+      <Footer></Footer>
     </div>
   );
 };

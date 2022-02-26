@@ -2,13 +2,11 @@ import React from 'react'
 import "./About.css"
 import award from '../../img/award.png'
 import karla from '../../img/girl2.png'
-import code from '../../img/coding.png'
 
 export const About = () => {
   return (
     <div className='a'>
     <div className='a-left'>
-        {/* <img className='a-card bg' src={code} alt=''></img> */}
         <div className='a-card'>
             <img className='a-img' src={karla} alt=''></img>
         </div>
