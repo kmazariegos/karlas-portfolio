@@ -9,16 +9,16 @@ function Intro() {
             <div className='i-left-wrapper'>
                 <h2 className='i-intro'>Hello, my name is</h2> 
                 <h1 className='i-name'>Karla</h1>
-                <div className='i-title'>
+                {/* <div className='i-title'>
                     <div className='i-title-wrapper'>
                         <div className='i-title-item'>Web Dev</div>
                         <div className='i-title-item'>Software</div>
                         <div className='i-title-item'>Business</div>
                         <div className='i-title-item'>Management</div>
                     </div>
-                </div>
+                </div> */}
                 <p className='i-desc'>
-                    I design and develop websites and applications. 
+                Highly entrepreneurial problem-solver and software enthusiast
                 </p>
                 <button>See My Work</button>
             </div>

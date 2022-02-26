@@ -14,22 +14,19 @@ export const About = () => {
     <div className='a-right'>
         <h1 className="a-title">About Me</h1>
         <p className="a-sub">
-          It is a long established fact that a reader will be distracted by the
-          readable content.
+        Fullstack Web Developer
         </p>
         <p className="a-desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+        Highly entrepreneurial problem-solver and software enthusiast motivated by bringing concepts to full fruition. 
+        Proven ability to successfully analyze an organization's business requirements, identify potential opportunities, and develop innovative solutions to enhance product revenue and user experience. 
+        Valuable in a variety of industries and fast-paced environments.
         </p>
         <div className='a-award'>
             <img src={award} alt='' className='a-award-img'></img>
             <div className="a-award-texts">
-            <h4 className="a-award-title">International Design Awards 2021</h4>
+            <h4 className="a-award-title">Grace Hopper</h4>
             <p className="a-award-desc">
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur autodit
-              and fugit.
+            2020 Software Engineering Scholar – Virtual (2020)
             </p>
           </div>
         </div>
