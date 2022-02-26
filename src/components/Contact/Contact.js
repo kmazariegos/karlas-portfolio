@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import { useRef, useContext } from 'react'
 import './Contact.css'
-import image from '../../img/coding.png'
+import image from '../../img/4.png'
+import image1 from '../../img/5.png'
 import emailjs from "emailjs-com";
 import { ThemeContext } from "../../context";
 
@@ -35,11 +36,7 @@ export default function Contact() {
                         Email
                     </div>
                     <div className='c-info-item'>
-                        <img className='c-icon' src={image} alt=''></img>
-                        Address
-                    </div>
-                    <div className='c-info-item'>
-                        <img className='c-icon' src={image} alt=''></img>
+                        <img className='c-icon' src={image1} alt=''></img>
                         Phone Number
                     </div>
                 </div>

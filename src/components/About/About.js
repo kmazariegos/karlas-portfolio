@@ -1,14 +1,16 @@
 import React from 'react'
 import "./About.css"
-import coding from '../../img/coding.png'
+import award from '../../img/award.png'
+import karla from '../../img/girl2.png'
+import code from '../../img/coding.png'
 
 export const About = () => {
   return (
     <div className='a'>
     <div className='a-left'>
-        <div className='a-card bg'></div>
+        {/* <img className='a-card bg' src={code} alt=''></img> */}
         <div className='a-card'>
-            <img className='a-img' src={coding} alt=''></img>
+            <img className='a-img' src={karla} alt=''></img>
         </div>
     </div>
     <div className='a-right'>
@@ -24,7 +26,7 @@ export const About = () => {
           aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
         </p>
         <div className='a-award'>
-            <img src={coding} alt='' className='a-award-img'></img>
+            <img src={award} alt='' className='a-award-img'></img>
             <div className="a-award-texts">
             <h4 className="a-award-title">International Design Awards 2021</h4>
             <p className="a-award-desc">
