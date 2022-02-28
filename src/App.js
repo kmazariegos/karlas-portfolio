@@ -7,7 +7,7 @@ import Toggle from './components/Toggle/Toggle';
 import { useContext } from 'react';
 import { ThemeContext } from './context';
 import Footer from './components/Footer/Footer';
-import Nav from './components/Nav/Nav';
+import Navi from './components/Navi/Navi';
 
 
 
@@ -21,13 +21,13 @@ const App = () => {
         color: darkMode ? "#ffd7e2" : "#283b7d"
       }}
     >
+      <Navi></Navi>
       <Toggle />
       <Intro />
       <About />
       <ProductList />
       <Contact />
       <Footer></Footer>
-      <Nav></Nav>
     </div>
   );
 };
