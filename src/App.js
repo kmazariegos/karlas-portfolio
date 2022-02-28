@@ -7,6 +7,7 @@ import Toggle from './components/Toggle/Toggle';
 import { useContext } from 'react';
 import { ThemeContext } from './context';
 import Footer from './components/Footer/Footer';
+import Nav from './components/Nav/Nav';
 
 
 
@@ -26,6 +27,7 @@ const App = () => {
       <ProductList />
       <Contact />
       <Footer></Footer>
+      <Nav></Nav>
     </div>
   );
 };
