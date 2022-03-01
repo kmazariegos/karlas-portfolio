@@ -2,8 +2,8 @@
     width: 50px; 
     height: 25px;
     border-radius: 20px;
-    border: 1px solid grey;
-    background-color: white;
+    border: 1px solid #283b7d;
+    background-color: #e9fcda;
     position: fixed;
     top: 10px;
     right: 10px;
@@ -22,7 +22,7 @@
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    background-color: #999;
+    background-color: #283b7d;
     position: absolute;
     cursor: pointer;
 }

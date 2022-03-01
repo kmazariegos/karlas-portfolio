@@ -8,6 +8,7 @@ import { useContext } from 'react';
 import { ThemeContext } from './context';
 import Footer from './components/Footer/Footer';
 import Navi from './components/Navi/Navi';
+import Introduction from './components/Introduction/Introduction';
 
 
 
@@ -23,6 +24,7 @@ const App = () => {
     >
       <Navi></Navi>
       <Toggle />
+      <Introduction></Introduction>
       <Intro />
       <About />
       <ProductList />
