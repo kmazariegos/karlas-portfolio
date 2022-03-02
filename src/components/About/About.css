@@ -2,7 +2,10 @@
     height: 100vh;
     display: flex;
     align-items: center;
-    font-family: Poppins;
+    font-family: Poppins; 
+    
+    background-image: linear-gradient(180deg, #ffd7e2, #d1c8e8 100%, #daf2dd);
+    color: #283b7d;
 }
 
 .a-left{

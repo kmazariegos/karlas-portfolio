@@ -7,8 +7,8 @@ function Introduction() {
             <div class="hero-content text">
             <h1 class="heading">Hello! I'm Karla</h1>
             <p class="hero-paragraph">A product designer with an empathetic approach to designing polished and engaging user experiences.</p>
-            <div className='secondButton side'>
-            <a href="#Projects" data-w-id="Button" class="primary-button">See my work</a>
+            <div className='introductionButton sideIntro'>
+            <a href="#Projects" data-w-id="Button" class="introduction-button">See my work</a>
             </div>
             </div>
 

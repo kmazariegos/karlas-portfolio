@@ -1,9 +1,10 @@
 .first{
-    color: #283b7d;
+    /* color: #283b7d;  */
     display: flex;
-    height: 55vh;
+    height: 75vh;
     font-family: Poppins;
-    background-image: linear-gradient(180deg, #d1c8e8 43%, #fff2bb 93%);
+    /* background-image: linear-gradient(180deg, #d1c8e8 43%, #fff2bb 93%); */
+    padding-bottom: 150px;
 }
 
 

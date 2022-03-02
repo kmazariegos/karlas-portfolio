@@ -8,9 +8,8 @@ function Footer() {
 
         <div class="container-2 w-container">
         <a href='wwww.karlamazariegos.com' target="_blank" className="footer-links">LinkedIn</a>
-        <a href='wwww.karlamazariegos.com' className="footer-links">Email</a>
-        <a href='wwww.karlamazariegos.com' target="_blank" className="footer-links">Dribbble</a>
-        <a href='wwww.karlamazariegos.com' target="_blank" className="footer-links">Instagram</a>
+        <a href='wwww.karlamazariegos.com' className="footer-links">Resume</a>
+        <a href='wwww.karlamazariegos.com' target="_blank" className="footer-links">Github</a>
         </div>
 
     </div>

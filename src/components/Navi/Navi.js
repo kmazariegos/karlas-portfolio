@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react' 
 import "./Navi.css"
 
 function Navi() {
@@ -12,7 +12,7 @@ function Navi() {
       <div>projects</div>
       </a>
 
-      <a class="n-logo-p" href='/'>
+      <a class="n-logo-p" href='/src/components/Resume/Resume.js'>
       <div>resume</div>
       </a>
 

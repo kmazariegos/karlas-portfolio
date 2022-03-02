@@ -35,7 +35,7 @@
     font-family: Poppins;
 }
 
-.primary-button{
+.introduction-button{
     display: inline-block;
     padding: 12px 38px;
     border: 4px solid #283b7d;
@@ -47,7 +47,7 @@
     font-family: Poppins;
 }
 
-.primary-button:hover{
+.introduction-button:hover{
     display: inline-block;
     padding: 12px 38px;
     border: 4px solid #283b7d;
@@ -58,17 +58,17 @@
     text-align: center;
 }
 
-.secondButton {
+.introductionButton {
     align-items: center;
     animation-duration: 2s;
     animation-iteration-count: infinite;
     transform-origin: bottom;
 }
-.side:hover {
-    animation-name: side;
+.sideIntro:hover {
+    animation-name: sideIntro;
     animation-timing-function: ease;
 }
-@keyframes side {
+@keyframes sideIntro {
   0%   { transform: translateX(0); }
   50%  { transform: translateX(-10px); }
   100% { transform: translateX(0); }

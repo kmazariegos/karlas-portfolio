@@ -2,12 +2,13 @@
     display: flex;
     height: 100vh;
     font-family: Poppins;
-    background-image: linear-gradient(180deg, #ffd7e2, #d1c8e8 100%, #daf2dd);
     color: #283b7d;
+    background-image: linear-gradient(180deg, #d1c8e8 43%, #fff2bb 93%);
+
 }
 
 
-/* THIS IS THE RIGHT SIDE  */
+/* THIS IS THE RIGHT SIDE  */ 
 .i-right{
     flex: 1;
     display: flex;
