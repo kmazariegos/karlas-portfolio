@@ -1,0 +1,26 @@
+/* h1 {
+    margin: 0
+  }
+.box {
+    overflow: hidden;
+    border: 1px solid black;
+    height: 50vh;
+    position: relative;
+}
+.hid-box {
+    top: 100%;
+    position: relative;
+    transition: all .3s ease-out;
+    background: #a7d5fd;
+    height: 100%;
+}
+
+.box:hover > .hid-box{
+    top: 0;
+} */
+
+
+.first{
+    height: 50vh;
+}
+

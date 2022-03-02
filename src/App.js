@@ -9,6 +9,7 @@ import { ThemeContext } from './context';
 import Footer from './components/Footer/Footer';
 import Navi from './components/Navi/Navi';
 import Introduction from './components/Introduction/Introduction';
+import Test from './components/Test/Test'
 
 
 
@@ -26,6 +27,7 @@ const App = () => {
       <Toggle />
       <Introduction></Introduction>
       <Intro />
+      <Test></Test>
       <About />
       <ProductList />
       <Contact />

@@ -4,7 +4,8 @@ import img from '../../img/project1.png'
 
 function Intro() {
   return (
-    <div className='i'>
+    <div className='i'> 
+
         <div className='i-left'>
             <div className='i-left-wrapper'>
                 <h1 className='slide-in'>Chat Application</h1>
@@ -16,9 +17,11 @@ function Intro() {
         </div>
 
         <div className='i-right'>
-            <div className='i-bg'></div>
             <img className='i-img' src={img} alt=''></img>
         </div>
+
+      
+
     </div>
   )
 }
