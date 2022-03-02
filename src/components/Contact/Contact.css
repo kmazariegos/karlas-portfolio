@@ -1,7 +1,7 @@
 .c {
 height: 100vh;
 position: relative;
-font-family: Poppins;
+font-family: Poppins; 
 }
 
 .c-bg {
@@ -72,7 +72,7 @@ font-size: 14px;
 padding-left: 10px;
 }
 
-button{
+.contactButton{
     display: inline-block;
     padding: 12px 38px;
     border: 4px solid #283b7d;
@@ -83,6 +83,38 @@ button{
     text-align: center;
     cursor: pointer;
 }
+
+.contactButton:hover{
+    display: inline-block;
+    padding: 12px 38px;
+    border: 4px solid #283b7d;
+    background-color: rgb(210, 238, 197);
+    box-shadow: 8px 8px 0 0 #283b7d;
+    color: #283b7d;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.contactAnime {
+    align-items: center;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+.move:hover {
+    animation-name: move;
+    animation-timing-function: ease;
+}
+@keyframes move {
+  0%   { transform: translateX(0); }
+  50%  { transform: translateX(-10px); }
+  100% { transform: translateX(0); }
+}
+
+
+
+
 
 .thank-you{
     color: #283b7d;

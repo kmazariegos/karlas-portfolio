@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react' 
 import { useRef, useContext } from 'react'
 import './Contact.css'
 import image from '../../img/4.png'
@@ -51,7 +51,9 @@ export default function Contact() {
                         <input style={{backgroundColor: darkMode && "#adcbff"}} type="text" placeholder="Subject" name="user_subject" />
                         <input style={{backgroundColor: darkMode && "#adcbff"}} type="text" placeholder="Email" name="user_email" />
                         <textarea style={{backgroundColor: darkMode && "#adcbff"}} rows="5" placeholder="Message" name="message" />
-                    <button>Submit</button>
+                    <div className='contactAnime move'>
+                    <button className='contactButton'>Submit</button>
+                    </div>
                     {done && <h4 className='thank-you'>Thank you!</h4>}
                 </form>
             </div>

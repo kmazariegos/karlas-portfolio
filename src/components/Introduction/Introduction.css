@@ -15,7 +15,7 @@
 }
 
 .heading{
-    margin-top: 0px;
+    margin-top: 0px; 
     margin-bottom: 12px;
     padding-bottom: 0px;
     font-family: Montserrat, sans-serif;
@@ -56,4 +56,20 @@
     color: #283b7d;
     font-size: 20px;
     text-align: center;
+}
+
+.secondButton {
+    align-items: center;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+.side:hover {
+    animation-name: side;
+    animation-timing-function: ease;
+}
+@keyframes side {
+  0%   { transform: translateX(0); }
+  50%  { transform: translateX(-10px); }
+  100% { transform: translateX(0); }
 }

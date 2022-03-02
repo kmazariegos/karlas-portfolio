@@ -6,47 +6,68 @@
     color: #283b7d;
 }
 
+
+/* THIS IS THE RIGHT SIDE  */
+.i-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.i-img {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+}
+
+.child {
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+.bounce:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-30px); }
+  100% { transform: translateY(0); }
+}
+
+
+
+/* //THIS IS THE LEFT SIDE */
+
 .i-left{
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.i-right{
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-    transform-style: preserve-3d;
-}
-
-.i-right:hover{
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transform: translate3d(0px, 0px, 0px) scale3d(1.05, 1.05, 1.05) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-    transform-style: preserve-3d;
-}
-
-
 
 .i-left-wrapper{
-    padding: 20px;
-    height: 50%;
+    padding: 10px;
+    height: 20%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
     width: auto;
     margin-top: 16px;
-    align-items: flex-start;
+    align-items: flex-end;
     text-align: center;
 }
 
 .i-name {
-    font-size: 40px; 
+    margin-top: 0px;
+    margin-bottom: 12px;
+    padding-bottom: 0px;
+    font-family: Montserrat, sans-serif;
+    font-size: 40px;
+    line-height: 75px;
+    text-align: center;
 }
 
 .project-button{ 
@@ -73,20 +94,30 @@
     font-weight: 500;
 }
 
-.i-img {
-    width: 90%;
-    height: 90%;
-    object-fit: contain;
-    /* object-fit: cover; */
-    /* position: absolute; */
+.firstButton {
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
 }
-  
+.side:hover {
+    animation-name: side;
+    animation-timing-function: ease;
+}
+@keyframes side {
+  0%   { transform: translateX(0); }
+  50%  { transform: translateX(-10px); }
+  100% { transform: translateX(0); }
+}
+
+
+
 @media screen and (max-width: 480px) {
     .i {
       flex-direction: column;
     }
   
-    .i-left-wrapper {
+    .i-left-wrapper { 
     
       padding: 10px;
       align-items: center;

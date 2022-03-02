@@ -1,6 +1,6 @@
 import './App.css';
 import { About } from './components/About/About';
-import Intro from './components/Intro/Intro';
+import FirstProject from './components/FirstProject/FirstProject';
 import ProductList from './components/ProductList/ProductList';
 import Contact from './components/Contact/Contact';
 import Toggle from './components/Toggle/Toggle';
@@ -9,8 +9,8 @@ import { ThemeContext } from './context';
 import Footer from './components/Footer/Footer';
 import Navi from './components/Navi/Navi';
 import Introduction from './components/Introduction/Introduction';
-import Test from './components/Test/Test'
-import Test2 from './components/Test2/Test2'
+import SecondProject from './components/SecondProject/SecondProject'
+import ThirdProject from './components/ThirdProject/ThirdProject'
 
 
 
@@ -25,14 +25,14 @@ const App = () => {
       }}
     >
       <Navi></Navi>
-      <Toggle />
+      <Toggle/>
       <Introduction></Introduction>
-      <Intro />
-      <Test></Test>
-      <Test2></Test2>
-      <About />
-      <ProductList />
-      <Contact />
+      <About/>
+      <ProductList/>
+      <FirstProject />
+      <SecondProject/>
+      <ThirdProject/>
+      <Contact/>
       <Footer></Footer>
     </div>
   );
