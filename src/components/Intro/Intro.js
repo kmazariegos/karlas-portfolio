@@ -1,26 +1,17 @@
 import React from 'react'
 import "./Intro.css" 
-import img from '../../img/girl.png'
+import img from '../../img/project1.png' 
 
 function Intro() {
   return (
     <div className='i'>
         <div className='i-left'>
             <div className='i-left-wrapper'>
-                <h2 className='i-intro'>Hello, my name is</h2> 
-                <h1 className='i-name'>Karla</h1>
-                {/* <div className='i-title'>
-                    <div className='i-title-wrapper'>
-                        <div className='i-title-item'>Web Dev</div>
-                        <div className='i-title-item'>Software</div>
-                        <div className='i-title-item'>Business</div>
-                        <div className='i-title-item'>Management</div>
-                    </div>
-                </div> */}
+                <h1 className='slide-in'>Chat Application</h1>
                 <p className='i-desc'>
-                Highly entrepreneurial problem-solver and software enthusiast
+                Reimagining the way you chat with others on this collaborative iOS app
                 </p>
-                <button>See My Work</button>
+                <button className='project-button'>View Project</button>
             </div>
         </div>
 
