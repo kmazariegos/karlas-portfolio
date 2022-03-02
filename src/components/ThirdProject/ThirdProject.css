@@ -1,4 +1,134 @@
-.test2{
-    height: 50vh;
-    background-image: linear-gradient(0deg, #daf2dd 18%, #fff2bb);
+.third{
+    color: #283b7d;
+    display: flex;
+    height: 80vh;
+    font-family: Poppins;
+    background-image: linear-gradient(0deg, #daf2dd 18%, #fff2bb); 
 }
+
+
+/* THIS IS THE RIGHT SIDE  */
+.third-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.third-img {
+    width: 35%;
+    height: 35%;
+    object-fit: contain;
+}
+
+.child3 {
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+.bounce3:hover {
+    animation-name: bounce3;
+    animation-timing-function: ease;
+}
+@keyframes bounce3 {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-30px); }
+  100% { transform: translateY(0); }
+}
+
+
+
+/* //THIS IS THE LEFT SIDE */
+
+.third-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.third-left-wrapper{
+    padding: 10px;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: auto;
+    margin-top: 16px;
+    align-items: flex-end;
+    text-align: center;
+}
+
+.third-name {
+    margin-top: 0px;
+    margin-bottom: 12px;
+    padding-bottom: 0px;
+    font-family: Montserrat, sans-serif;
+    font-size: 40px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.project-button{ 
+    display: inline-block;
+    text-align: center;
+    font-family: Poppins;
+    padding: 8px 12px;
+    border: 3px solid #283b7d;
+    background-color: transparent;
+    color: #283b7d;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.project-button:hover{
+    background-color: rgb(210, 238, 197);
+    display: inline-block;
+    text-align: center;
+    font-family: Poppins;
+    padding: 8px 12px;
+    border: 3px solid #283b7d;
+    color: #283b7d;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.thirdButton {
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+.side3:hover {
+    animation-name: side3;
+    animation-timing-function: ease;
+}
+@keyframes side3 {
+  0%   { transform: translateX(0); }
+  50%  { transform: translateX(-10px); }
+  100% { transform: translateX(0); }
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .third {
+      flex-direction: column;
+    }
+  
+    .third-left-wrapper { 
+    
+      padding: 10px;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      height: 100%;
+    }
+  
+    .third-desc{
+      display: none;
+    }
+    
+}
+

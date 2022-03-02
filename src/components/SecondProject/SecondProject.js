@@ -15,7 +15,7 @@ function SecondProject() {
 
       <div className='s-left'>
           <div className='s-right-wrapper'>
-              <h1 className='s-name'>Chat Application</h1>
+              <h1 className='s-name'>Bus Tracking App</h1>
               <p className='s-desc'>
               Reimagining the way you chat with others on this collaborative iOS app
               </p>
@@ -25,7 +25,6 @@ function SecondProject() {
               </div>
           </div>
       </div>
-
 
     </div>
   )
