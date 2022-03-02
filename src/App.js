@@ -10,6 +10,7 @@ import Footer from './components/Footer/Footer';
 import Navi from './components/Navi/Navi';
 import Introduction from './components/Introduction/Introduction';
 import Test from './components/Test/Test'
+import Test2 from './components/Test2/Test2'
 
 
 
@@ -28,6 +29,7 @@ const App = () => {
       <Introduction></Introduction>
       <Intro />
       <Test></Test>
+      <Test2></Test2>
       <About />
       <ProductList />
       <Contact />
