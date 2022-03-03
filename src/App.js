@@ -13,7 +13,6 @@ import Introduction from './components/Introduction/Introduction';
 import SecondProject from './components/SecondProject/SecondProject'
 import ThirdProject from './components/ThirdProject/ThirdProject'
 
-
 const App = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
