@@ -1,5 +1,5 @@
 import './App.css';
-import { About } from './components/About/About';
+import { About } from './components/About/About'; 
 import FirstProject from './components/FirstProject/FirstProject';
 import ProductList from './components/ProductList/ProductList';
 import Contact from './components/Contact/Contact';
@@ -11,7 +11,6 @@ import Navi from './components/Navi/Navi';
 import Introduction from './components/Introduction/Introduction';
 import SecondProject from './components/SecondProject/SecondProject'
 import ThirdProject from './components/ThirdProject/ThirdProject'
-
 
 
 const App = () => {
