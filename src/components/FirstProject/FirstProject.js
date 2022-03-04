@@ -4,7 +4,7 @@ import img from '../../img/project1.png'
 
 function FirstProject() {
   return (
-    <div className='i'> 
+    <div className='i'>  
 
         <div className='i-left'> 
             <div className='i-left-wrapper'>
