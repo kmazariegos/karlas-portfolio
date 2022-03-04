@@ -5,10 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { ThemeProvider } from './context';
 
+
 ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider>
-      <App />
+      <App></App>
     </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')

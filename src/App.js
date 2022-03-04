@@ -1,41 +1,39 @@
 import './App.css';
-import { About } from './components/About/About'; 
-import FirstProject from './components/FirstProject/FirstProject';
-import ProductList from './components/ProductList/ProductList';
-import Contact from './components/Contact/Contact';
-import Toggle from './components/Toggle/Toggle';
 import { useContext } from 'react';
-import {BrowserRouter as Router} from "react-router-dom";
 import { ThemeContext } from './context';
-import Footer from './components/Footer/Footer';
-import Navi from './components/Navi/Navi';
-import Introduction from './components/Introduction/Introduction';
-import SecondProject from './components/SecondProject/SecondProject'
-import ThirdProject from './components/ThirdProject/ThirdProject'
+import Home from './components/Home/Home';
+import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
+import Footer from './components/Footer/Footer'
 
 const App = () => {
-  const theme = useContext(ThemeContext);
-  const darkMode = theme.state.darkMode;
-  return (
+    const theme = useContext(ThemeContext);
+    const darkMode = theme.state.darkMode;
+    return (
+      <div
+        style={{
+          backgroundColor: darkMode ? "#516dd3" : "#ffe9fd",
+          color: darkMode ? "#ffd7e2" : "#283b7d"
+        }}
+      >
+
     <Router>
-    <div
-      style={{
-        backgroundColor: darkMode ? "#516dd3" : "#ffe9fd",
-        color: darkMode ? "#ffd7e2" : "#283b7d"
-      }}
-    >
-      <Navi></Navi>
-      <Toggle/>
-      <Introduction></Introduction>
-      <About/>
-      <ProductList/>
-      <FirstProject />
-      <SecondProject/>
-      <ThirdProject/>
-      <Contact/>
-      <Footer></Footer>
-    </div>
+
+      <nav className='homeNav'>
+        <Link to="/" className='n-logo'> Home </Link>
+        <Link to="/projects" className='n-logo-p'> Projects </Link>
+        <Link to="/resume" className='n-logo-p'> Resume </Link>
+      </nav>
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home />} />
+      </Routes>
+
+
     </Router>
+
+    <Footer></Footer>
+    </div>
   );
 };
 
