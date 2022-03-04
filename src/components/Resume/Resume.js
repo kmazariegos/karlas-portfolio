@@ -3,8 +3,8 @@ import './Resume.css'
 
 function Resume() {
   return (
-    <div>
-        Resume
+    <div className='resumeDetails'>
+        Resume 
     </div>
   )
 }
