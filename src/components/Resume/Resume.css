@@ -1,20 +1,10 @@
 .resumeDetails{
-    height: 50vh;   
+    height: 120vh;   
     position: relative;
     text-align: center;
-    display: flex;
     height: 100vh;
     font-family: Poppins;
-}
-
-
-/* //THIS IS THE LEFT SIDE */
-
-.l-left{
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 150px;
 }
 
 .l-left-wrapper{
@@ -26,6 +16,19 @@
     width: auto;
     margin-top: 16px;
     align-items: flex-start;
+    text-align: center;
+}
+
+
+.r-right-wrapper{
+    padding: 10px;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: auto;
+    margin-top: 16px;
+    align-items: flex-end;
     text-align: center;
 }
 
@@ -60,22 +63,4 @@
 }
 
 
-
-
-/* THIS IS THE RIGHT SIDE  */ 
-.r-right{
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: turquoise;
-}
-
-
-.r-child {
-    align-self: flex-end;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    transform-origin: bottom;
-}
 
