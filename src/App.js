@@ -22,7 +22,7 @@ const App = () => {
 
       <nav className='homeNav'>
         <Link to="/" className='n-logo'>karla</Link>
-        <Link to="/projects/second" className='n-logo-p'> Projects </Link>
+        <Link to="/projects" className='n-logo-p'> Projects </Link>
         <Link to="/resume" className='n-logo-p'> Resume </Link>
       </nav>
 
