@@ -2,8 +2,8 @@ import './App.css';
 import { useContext } from 'react';
 import { ThemeContext } from './context';
 import Home from './components/Home/Home';
-import FirstProject from './components/FirstProject/FirstProject';
 import Resume from './components/Resume/Resume'
+import ProductPage from './components/ProjectPage/ProjectPage'
 import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
 import Footer from './components/Footer/Footer'
 
@@ -22,6 +22,7 @@ const App = () => {
 
       <nav className='homeNav'>
         <Link to="/" className='n-logo'>karla</Link>
+        <Link to="/" className='n-logo-p'>Home</Link>
         <Link to="/projects" className='n-logo-p'> Projects </Link>
         <Link to="/resume" className='n-logo-p'> Resume </Link>
       </nav>
@@ -29,11 +30,12 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/resume" element={<Resume/>} />
-        <Route path="/projects" element={<FirstProject/>}/>
+        <Route path="/projects" element={<ProductPage/>}/>
       </Routes>
 
 
     </Router>
+
     <Footer></Footer>
     </div>
   );
