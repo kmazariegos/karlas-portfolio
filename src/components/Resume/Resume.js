@@ -6,11 +6,20 @@ function Resume() {
   return (
     <div className='resumeDetails'>
         <Toggle></Toggle>
-        <h1 class="resume-title">Resume</h1>
-        <h2 className="Main-title">Karla Mazariegos</h2>
-        <h2 className="Main-title"> Los Angeles, 90037  |  323.496.9311  |  mazariek@gmail.com  </h2>
-        <h2 className="Second-title">Education</h2>
 
+        <div className='l-left'>
+          <div className='l-left-wrapper'>
+            <h1 class="resume-title">Resume</h1>
+            <h2 className="Main-title">Karla Mazariegos</h2>
+            <h2 className="Main-title"> Los Angeles, 90037  |  323.496.9311  |  mazariek@gmail.com  </h2>
+            <h2 className="Second-title">Education</h2>
+          </div>
+        </div>
+
+
+        <div className='r-right'>
+          <h1 className='r-child'>This is the right side</h1>
+        </div>
 
     </div>
   )

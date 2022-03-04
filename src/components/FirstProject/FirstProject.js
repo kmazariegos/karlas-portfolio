@@ -18,6 +18,7 @@ function FirstProject() {
                 </div>
             </div>
         </div>
+        
 
         <div className='i-right'>
                 <div class="child bounce">
