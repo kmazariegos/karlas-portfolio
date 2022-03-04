@@ -4,8 +4,13 @@
     text-align: center;
     height: 100vh;
     font-family: Poppins;
-    padding: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 200px;
+    padding-top: 50px;
 }
+
+/* BELOW IS FOR THE SECTION CSS */
 
 .l-left-wrapper{
     padding: 10px;
@@ -31,6 +36,9 @@
     align-items: flex-end;
     text-align: center;
 }
+
+
+/* BELOW IS FOR THE WORD CSS */
 
 .resume-title{
     margin-top: 0px; 
