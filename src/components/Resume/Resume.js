@@ -7,10 +7,12 @@ function Resume() {
     <div className='resumeDetails'>
         <Toggle></Toggle>
 
-          <div className='l-left-wrapper'>
-            <h1 class="resume-title">About</h1>
+        <div className='l-left-wrapper'>
+            <h1 class="resume-title">Experience</h1>
             <h2 className="Main-title">Karla Mazariegos</h2>
-            <h2 className="Second-title">Education</h2>
+            <h2 className="Second-title">Highly entrepreneurial problem-solver and software enthusiast motivated by bringing concepts to full fruition. 
+            Proven ability to successfully analyze an organization's business requirements, identify potential opportunities, and develop innovative solutions to enhance product revenue and user experience. 
+            Valuable in a variety of industries and fast-paced environments.</h2>
           </div>
 
           <div className='r-right-wrapper'>
