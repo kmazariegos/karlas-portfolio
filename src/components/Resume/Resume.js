@@ -10,28 +10,24 @@ function Resume() {
           <div className='l-left-wrapper'>
             <h1 class="resume-title">About</h1>
             <h2 className="Main-title">Karla Mazariegos</h2>
-            <h2 className="Main-title"> Los Angeles, 90037  |  323.496.9311  |  mazariek@gmail.com  </h2>
             <h2 className="Second-title">Education</h2>
           </div>
 
           <div className='r-right-wrapper'>
             <h1 class="resume-title">Education</h1>
-            <h2 className="Main-title">Karla Mazariegos</h2>
-            <h2 className="Main-title"> Los Angeles, 90037  |  323.496.9311  |  mazariek@gmail.com  </h2>
-            <h2 className="Second-title">Education</h2>
+            <h2 className="Main-title">Boston College</h2>
+            <h2 className="Second-title">B.A., Communications & Marketing – Boston, MA (2015)</h2>
           </div>
 
           <div className='l-left-wrapper'>
             <h1 class="resume-title">Experience</h1>
             <h2 className="Main-title">Karla Mazariegos</h2>
-            <h2 className="Main-title"> Los Angeles, 90037  |  323.496.9311  |  mazariek@gmail.com  </h2>
             <h2 className="Second-title">Education</h2>
           </div>
           
           <div className='r-right-wrapper'>
             <h1 class="resume-title">Resume</h1>
             <h2 className="Main-title">Karla Mazariegos</h2>
-            <h2 className="Main-title"> Los Angeles, 90037  |  323.496.9311  |  mazariek@gmail.com  </h2>
             <h2 className="Second-title">Education</h2>
           </div>
 
