@@ -17,9 +17,6 @@ function Resume() {
             <h1 class="resume-title">Education</h1>
             <h2 className="Main-title">Boston College</h2>
             <h2 className="Second-title">B.A., Communications & Marketing - Boston, MA (2015)</h2>
-            <br></br>
-            <h2 className="Main-title">Springboard</h2>
-            <h2 className="Second-title">Software Engineering Immersive - Los Angeles, CA (2020)</h2>
 
             <h1 class="resume-title">Skills & Abilities</h1>
             <h2 className="Second-title">JavaScript | React | Redux | HTML | CSS | NodeJS | Express | SQL | PostgreSQL | MongoDB | Flask | Restful API Development | Mocha | Chai | GitHub 
