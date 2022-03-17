@@ -1,7 +1,7 @@
 import React, { useContext } from 'react' 
 import "./Toggle.css"
-import sun from '../../img/2.png'
-import moon from '../../img/3.png'
+import sun from '../../img/sun.png'
+import moon from '../../img/moon.png'
 import { ThemeContext } from '../../context'
 
 function Toggle() {

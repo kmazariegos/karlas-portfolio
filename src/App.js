@@ -1,4 +1,4 @@
-import './App.css';
+import './App.css'; 
 import { useContext } from 'react';
 import { ThemeContext } from './context';
 import Home from './components/Home/Home';

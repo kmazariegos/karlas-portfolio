@@ -1,7 +1,7 @@
 import React from 'react'
 import "./About.css"
 import award from '../../img/award.png'
-import karla from '../../img/girl2.png'
+import karla from '../../img/cs-girl-1.png'
 
 export const About = () => {
   return (

@@ -6,7 +6,7 @@
     
     background-image: linear-gradient(180deg, #ffd7e2, #d1c8e8 100%, #daf2dd);
     color: #283b7d;
-}
+} 
 
 .a-left{
     flex: 1;
@@ -31,7 +31,7 @@
 
 .a-card{
     height: 70vh;
-    width: 60%;
+    width: 75%;
     border-radius: 30px;
     position: relative;
 }
