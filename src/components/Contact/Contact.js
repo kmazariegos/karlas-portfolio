@@ -33,18 +33,18 @@ export default function Contact() {
                 <div className='c-info'>
                     <div className='c-info-item'>
                         <img className='c-icon' src={email} alt=''></img>
-                        Email
+                        Email: mazariek@gmail.com
                     </div>
                     <div className='c-info-item'>
                         <img className='c-icon' src={phone} alt=''></img>
-                        Phone Number
+                        Phone Number: (323) 496-9311
                     </div>
                 </div>
             </div>
             <div className='c-right'>
                 <p className='c-desc'>
                     <b>What's your story?</b>
-                    <p>Here is the story</p>
+                    <p>Lets chat!</p>
                 </p>
                 <form ref={formRef} onSubmit={handleSubmit}>
                         <input style={{backgroundColor: darkMode && "#adcbff"}} type="text" placeholder="Name" name="user_name" />
