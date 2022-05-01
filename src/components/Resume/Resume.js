@@ -23,10 +23,6 @@ function Resume() {
             | Jira | Salesforce | Postman | Tableau | Excel | Entrepreneurship | E-commerce | Brand Development | Operations Management | Strategic Planning 
             | Supply Chain Management | Amazon Seller Central | Shopify | SEO | Google Analytics  | Ad Campaign Management</h2>
           
-            <h1 class="resume-title">Experience</h1>
-            <h2 className="Main-title">Software Engineering Student, Springboard</h2>
-            <h2 className="Second-title">Completed a coding boot camp that covered key aspects of software engineering.</h2>
-          
           </div>
 
 

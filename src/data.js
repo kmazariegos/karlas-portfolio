@@ -13,13 +13,13 @@ export const products = [
     {
       id: 2,
       img: img2,
-      title: 'Splunk Support',
+      title: 'Splunk Support: Coming soon',
       link: "http://lama.dev"
     },
     {
       id: 3,
       img: img3,
-      title: 'Meal Prep',
+      title: 'Meal Prep: Coming soon',
       link: "http://lama.dev"
     }
 ]

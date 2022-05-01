@@ -1,12 +1,12 @@
 import './Home.css';
 import { About } from '../About/About';  
-import FirstProject from '../FirstProject/FirstProject';
+// import FirstProject from '../FirstProject/FirstProject';
 import ProductList from '../ProductList/ProductList';
 import Contact from '../Contact/Contact';
 import Toggle from '../Toggle/Toggle';
 import Introduction from '../Introduction/Introduction';
 import SecondProject from '../SecondProject/SecondProject'
-import ThirdProject from '../ThirdProject/ThirdProject'
+// import ThirdProject from '../ThirdProject/ThirdProject'
 
 const Home = () => {
   return (
@@ -15,9 +15,9 @@ const Home = () => {
       <Introduction></Introduction>
       <About/>
       <ProductList/>
-      <FirstProject />
+      {/* <FirstProject /> */}
       <SecondProject/>
-      <ThirdProject/>
+      {/* <ThirdProject/> */}
       <Contact/>
     </div>
   );
