@@ -1,10 +1,10 @@
 import React from 'react'
 import "./Product.css"
 
-function Product({img,link}) {
+function Product({img,link, item}) {
   return (
     <div className='p'>
-        Card
+    <h4>{item.title}</h4>
         <div className='p-browser'>
             <div className='p-circle'></div> 
             <div className='p-circle'></div>
